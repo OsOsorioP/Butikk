@@ -1,0 +1,96 @@
+@mixin tablet {
+    @media only screen and (max-width:750px) {
+        height: 500px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+            "one two"
+            "four four-low";
+        grid-gap: 13px;
+        gap: 13px;
+    }
+}
+
+@mixin mobile {
+    @media (max-width:450px) {
+        bottom: 1rem;
+        left: 1rem;
+        font-size: 3rem;
+    }
+
+    @media (max-width:400px) {
+        bottom: 1rem;
+        left: 0.5rem;
+        font-size: 2.5rem;
+    }
+}
+
+.home-container {
+    padding-top: 8rem;
+
+    .container {
+        margin: 0 auto;
+        padding: 0 19px;
+
+        .grid-container {
+            grid-gap: 1.3rem;
+            display: grid;
+            gap: 1.3rem;
+            grid-template-areas:
+                "one two four"
+                "one two four-low";
+            grid-template-columns: 2fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            height: 50rem;
+            margin-top: 1.3rem;
+
+            @include tablet ();
+
+            .featured {
+                cursor: pointer;
+                overflow: hidden;
+                position: relative;
+
+                img {
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: 50% 50%;
+                    width: 100%;
+                    filter: brightness(50%);
+                }
+
+                img:hover {
+                    filter: brightness(30%);
+                }
+
+                .main-description {
+                    bottom: 2rem;
+                    color: #fff;
+                    font-size: 3.8rem;
+                    font-weight: 600;
+                    left: 2rem;
+                    position: absolute;
+                    @include mobile();
+                }
+            }
+
+            .grid-one {
+                grid-area: one;
+            }
+
+            .grid-two {
+                grid-area: two;
+            }
+
+            .grid-four {
+                grid-area: four;
+            }
+
+            .grid-four-low {
+                grid-area: four-low;
+            }
+        }
+    }
+
+}
