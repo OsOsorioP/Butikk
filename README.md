@@ -7,7 +7,7 @@
 **Butikk** es una plataforma web de compras que permite a los usuarios navegar por productos, agregar artículos al carrito y proceder con el proceso de pago. Desarrollado con una interfaz de usuario fluida y responsiva para una experiencia de compra óptima.
 
 <p align="center">
-  <img src="https://via.placeholder.com/660x300" alt="Butikk" title="Pantalla de inicio" width="660">
+  <img src="https://github.com/OsOsorioP/Butikk/blob/main/Imagenes/Butikk-01.webp" alt="Butikk" title="Pantalla de inicio" width="660">
 </p>
 
 ## Características
@@ -27,11 +27,14 @@
 
 1. Navega por los productos disponibles y agrégales al carrito.  
    <p align="center">
-     <img src="https://via.placeholder.com/660x300" alt="product-list" title="Lista de productos" width="660">
+     <img src="https://github.com/OsOsorioP/Butikk/blob/main/Imagenes/Butikk-02.webp" alt="product-list" title="Lista de productos" width="660">
+   </p>
+   <p align="center">
+     <img src="https://github.com/OsOsorioP/Butikk/blob/main/Imagenes/Butikk-03.webp" alt="product" title="Detalle del producto" width="660">
    </p>
 2. Visualiza el carrito y procede con el pago.  
    <p align="center">
-     <img src="https://via.placeholder.com/660x300" alt="cart" title="Carrito de compras" width="660">
+     <img src="https://github.com/OsOsorioP/Butikk/blob/main/Imagenes/Butikk-04.webp" alt="cart" title="Carrito de compras" width="660">
    </p>
 
 ## Contribuciones  
