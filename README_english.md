@@ -1,5 +1,5 @@
 <p align="center">
-  | <a href="https://github.com/OsOsorioP/Planara/blob/main/README.md" target="_blank">Spanish</a> |
+  | <a href="https://github.com/OsOsorioP/Butikk/blob/main/README.md" target="_blank">Spanish</a> |
 </p>
 
 # Butikk
