@@ -1,3 +1,7 @@
+<p align="center">
+  | <a href="https://github.com/OsOsorioP/Butikk/blob/main/README_english.md" target="_blank">English</a> |
+</p>
+
 # Butikk
 
 **Butikk** es una plataforma web de compras que permite a los usuarios navegar por productos, agregar artículos al carrito y proceder con el proceso de pago. Desarrollado con una interfaz de usuario fluida y responsiva para una experiencia de compra óptima.
